@@ -13,6 +13,13 @@
 (setq default-buffer-file-coding-system 'utf-8)
 
 ;; ============================================================================
+;; Shell mode
+(setq explicit-shell-file-name "c:/Program Files/Git/bin/bash.exe")
+(setq shell-file-name explicit-shell-file-name)
+(add-to-list 'exec-path "c:/Program Files/Git/bin")
+(add-to-list 'exec-path "c:/Program Files/Git/cmd")
+
+;; ============================================================================
 ;; Org mode
 (custom-set-variables
   ;; custom-set-variables was added by Custom.

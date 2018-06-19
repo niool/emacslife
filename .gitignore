@@ -1,7 +1,11 @@
 /.backups
 /bin
+/etc
+/include
+/lib
 /libexec
 /share
+/ssl
 /var
 /syncdirs
 /tool/*.zip
