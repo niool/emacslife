@@ -47,12 +47,12 @@
 * Financial
 #+CATEGORY: Financial
 ** APPT Pay Credit Cards                                            :COMPUTER:
-   SCHEDULED: <2009-01-22 Wed +1m>
+   SCHEDULED: <2018-06-08 Fri +1m>
    :PROPERTIES:
    :ID:       d8103fd5-e34e-4e6d-ab40-5d321e70556e
    :END:
 ** APPT Pay Mortgage                                                :COMPUTER:
-   SCHEDULED: <2009-01-22 Wed +1m>
+   SCHEDULED: <2018-06-15 Fri +1m>
    :PROPERTIES:
    :ID:       ef72ae1a-e94a-4e4c-8b37-b597eb02f026
    :END: 
@@ -71,16 +71,17 @@
     :Effort:   2:00
     :ID:       9f1a58fe-80fb-4911-95f7-0f03ef09edb9
     :END:
-* Work
+* Capture Tasks
 ** STARTED Config My Emacs for daily work
-** 
+   Created:[2018-06-17 Sun]
+** STARTED Workout a plan for programming trainning
    :LOGBOOK:  
+   CLOCK: [2018-06-19 Tue 13:30]--[2018-06-19 Tue 13:32] =>  0:02
    :END:      
-[2018-06-17 Sun]
-** STARTED Working out a schedule
-   :LOGBOOK:  
-   :END:      
-   [2018-06-17 Sun]
+   Created:[2018-06-19 Tue]
+  Target: Make teenager smarter
+*** Investigate courses and ideas through website, wechat, etc.
+*** Start to create a content of my focus 
 
 
 * Local Configuration

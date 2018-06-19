@@ -93,7 +93,7 @@
 (setq org-capture-templates nil)
 
 (add-to-list 'org-capture-templates
-             '("n" "Notes" entry (file "c:/Emacs/mybook/org/notes/inbox.org")
+             '("n" "Notes" entry (file "c:/Emacs/mybook/org/inbox.org")
                "* %^{heading} %t %^g\n  %?\n"))
 (add-to-list 'org-capture-templates
              '("j" "Journal" entry (file "c:/Emacs/mybook/org/journals.org")
@@ -105,11 +105,11 @@
 (add-to-list 'org-capture-templates
              '("r" "Book Reading Task" entry
                (file+olp "c:/Emacs/mybook/org/MyGTD.org" "Reading" "Book")
-               "* TODO %^{书名}\n%u\n%a\n" :clock-in t :clock-resume t))
+               "* TODO %^{Book Name}\n%u\n%a\n" :clock-in t :clock-resume t))
 (add-to-list 'org-capture-templates
              '("t" "Work Task" entry
-               (file+headline "c:/Emacs/mybook/org/MyGTD.org" "Work")
-               "* TODO %^{任务名}\n%u\n%a\n" :clock-in t :clock-resume t))	
+               (file+headline "c:/Emacs/mybook/org/MyGTD.org" "Capture Tasks")
+               "* TODO %^{Task Name}\n\tCreated:%u\n%a\n" :clock-in t :clock-resume t))
 
 (add-to-list 'org-capture-templates
              '("b" "Billing" plain
@@ -139,8 +139,8 @@
             (insert (make-string level ?*) " " heading "\n"))))
       (setq level (1+ level))
       (setq end (save-excursion (org-end-of-subtree t t))))
-    (org-end-of-subtree)))			   
-			   
+    (org-end-of-subtree)))
+
 (setq org-default-notes-file (concat org-directory "/inbox.org"))
 
 ;; ============================================================================
@@ -153,7 +153,7 @@
 (setq org-agenda-custom-commands
 '(
 
-("P" "Projects"   
+("P" "Projects"
 ((tags "PROJECT")))
 
 ("H" "Office and Home Lists"
