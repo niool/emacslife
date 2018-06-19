@@ -1,0 +1,20 @@
+* emacs.d Configuration
+My emacs.d is derived from https://github.com/redguardtoo/emacs.d.
+It has a readme to learn how to use it.
+
+* Start to use it, my version is Magit
+** Git Windows
+   - Download git windows, use default config.
+   - Config my git account
+     - I already have an account in https://github.com
+     - Use command:
+       git config --global user.name niool
+       git config --global user.email niool@hotmail.com
+** Config SSH Links
+   - SSH Key normally stored at ~/.ssh
+   - If not, create a new one
+     - ssh-keygen -t rsa -C "your_email@youremail.com"      
+     - cat ~/.ssh/id_rsa.pub 
+   - Config your SSH public key in github
+   - Check whether config is succefully
+     ssh -T git@github.com

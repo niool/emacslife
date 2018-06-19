@@ -1,0 +1,37 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file c:/Emacs/mybook/org/MyGTD.org
+
+
+* DONE org-mode configuration
+  CLOSED: [2018-06-16 Sat 20:43]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-06-16 Sat 20:43
+  :ARCHIVE_FILE: c:/Emacs/mybook/org/MyGTD.org
+  :ARCHIVE_CATEGORY: Borrowed
+  :ARCHIVE_TODO: DONE
+  :END:
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
+#+TAGS: { OFFICE(o) HOME(h) } COMPUTER(c) PROJECT(p) READING(r) 
+#+TAGS: DVD(d) LUNCHTIME(l)
+#+SEQ_TODO: TODO(t) STARTED(s) WAITING(w) APPT(a) | DONE(d) CANCELLED(c) DEFERRED(f)
+
+
+
+* DONE Prepare a Budget for 2009                                                :COMPUTER:
+  CLOSED: [2018-06-16 Sat 20:53]
+  :PROPERTIES:
+  :Effort:   2:00
+  :ID:       cb357e29-f87a-4e99-a54a-87217268a9b2
+  :ARCHIVE_TIME: 2018-06-16 Sat 20:53
+  :ARCHIVE_FILE: c:/Emacs/mybook/org/MyGTD.org
+  :ARCHIVE_OLPATH: Financial
+  :ARCHIVE_CATEGORY: Borrowed
+  :ARCHIVE_TODO: DONE
+  :END:

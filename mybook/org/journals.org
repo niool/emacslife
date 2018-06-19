@@ -1,0 +1,7 @@
+* [2018-06-17 Sun 18:25] - good
+ Making a result, and define it. 
+* [2018-06-17 Sun 22:35] - IFTTT If This Then That
+ 一个非常伟大的观念，链接孤立的信息和设备。 
+* [2018-06-17 Sun 23:55] - Another very good idea project: huginn
+  https://github.com/huginn/huginn
+  Like IFTTT

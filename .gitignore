@@ -1,0 +1,9 @@
+/.backups
+/bin
+/libexec
+/share
+/var
+/syncdirs
+/tool/*.zip
+.emacs.keyfreq
+.smex-items

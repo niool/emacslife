@@ -1,0 +1,94 @@
+# -*- coding: utf-8; -*-
+# -*- mode: org -*-
+
+#+LAST_MOBILE_CHANGE: 2018-06-16 20:53:12
+
+* Tasks
+#+CATEGORY: Tasks
+** TODO Write article about GTD and orgmode                         :COMPUTER:
+   DEADLINE: <2018-06-17 Sun>
+   :PROPERTIES:
+   :ID:       ea41b797-12f6-4260-b619-78d3d5d84e4d
+   :END:
+   Added: [2009-01-09 Fri 07:42]
+* Calendar
+#+CATEGORY: Calendar
+** TODO Review Weekly                                                :HOME:
+   SCHEDULED: <2009-01-16 Fri +1w> 
+   :PROPERTIES:
+   :ID:       33692ad3-36c6-4d3c-9423-3af3dafe48b9
+   :END:      
+** PC Backup to DVD                                                 :COMPUTER:
+   SCHEDULED: <2009-01-31 Sat +1m>
+   :PROPERTIES:
+   :ID:       9f4039c7-ca96-4054-b739-4e529d53b22f
+   :END:
+   SCHEDULED: <2009-01-17 Sat +1m>
+   #+AUTHOR: Jiang Hua
+* Projects
+#+CATEGORY: Projects
+** Complete GTD and org-mode implementation                          :PROJECT:
+   :PROPERTIES:
+   :ID:       feff810f-a41d-466b-acd6-9d553973f4d7
+   :END:
+*** Document my GTD Backup script and write article                 :COMPUTER:
+*** TODO Tidy up my GTD web site .. directory on display             :COMPUTER:
+    :PROPERTIES:
+    :ID:       08f5f628-a3b5-4e3a-9f3f-a0d74d47c0f0
+    :END:
+*** Explore org-mode for Project planning                           :COMPUTER:
+    Use drawings to describe the five phases of workflow
+*** Reread Ready for Anything (RFA) in 2009                          :READING:
+*** Org-mode
+**** Study orgmode clockin/out and effort                             :OFFICE:
+**** Update tutorial on Remember mode                               :COMPUTER:
+**** Finalise article on org-mode and SMART Goals                   :COMPUTER:
+**** Publish article about my CD-catalog script                     :COMPUTER:
+* Financial
+#+CATEGORY: Financial
+** APPT Pay Credit Cards                                            :COMPUTER:
+   SCHEDULED: <2009-01-22 Wed +1m>
+   :PROPERTIES:
+   :ID:       d8103fd5-e34e-4e6d-ab40-5d321e70556e
+   :END:
+** APPT Pay Mortgage                                                :COMPUTER:
+   SCHEDULED: <2009-01-22 Wed +1m>
+   :PROPERTIES:
+   :ID:       ef72ae1a-e94a-4e4c-8b37-b597eb02f026
+   :END: 
+* Borrowed
+#+CATEGORY: Borrowed
+** Stanton Library
+*** TODO Read Parrots of Australia                                   :READING:
+    DEADLINE: <2009-01-30 Fri>
+    :PROPERTIES:
+    :Effort:   1:00
+    :ID:       40fe4342-d98d-48e9-bf4a-20f7e1210022
+    :END:
+*** TODO Watch CLOSELY OBSERVED TRAINS                               :DVD:
+    DEADLINE: <2009-01-23 Fri>
+    :PROPERTIES:
+    :Effort:   2:00
+    :ID:       9f1a58fe-80fb-4911-95f7-0f03ef09edb9
+    :END:
+* Work
+** STARTED Config My Emacs for daily work
+** 
+   :LOGBOOK:  
+   :END:      
+[2018-06-17 Sun]
+** STARTED Working out a schedule
+   :LOGBOOK:  
+   :END:      
+   [2018-06-17 Sun]
+
+
+* Local Configuration
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
+#+TAGS: { OFFICE(o) HOME(h) } COMPUTER(c) PROJECT(p) READING(r) 
+#+TAGS: DVD(d) LUNCHTIME(l)
+#+SEQ_TODO: TODO(t) STARTED(s) WAITING(w) APPT(a) | DONE(d) CANCELLED(c) DEFERRED(f)
