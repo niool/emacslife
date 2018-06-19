@@ -73,8 +73,14 @@
     :END:
 * Capture Tasks
 ** STARTED Config My Emacs for daily work
+   :PROPERTIES:
+   :ID:       59760a4f-ba8b-4a15-b382-b0ef437ead7e
+   :END:
    Created:[2018-06-17 Sun]
 ** STARTED Workout a plan for programming trainning
+   :PROPERTIES:
+   :ID:       8255b49e-9bb9-42e2-a584-9c131aad36d2
+   :END:
    :LOGBOOK:  
    CLOCK: [2018-06-19 Tue 13:30]--[2018-06-19 Tue 13:32] =>  0:02
    :END:      

@@ -1,8 +1,9 @@
 * emacs.d Configuration
-My emacs.d is derived from https://github.com/redguardtoo/emacs.d.
-It has a readme to learn how to use it.
+  My emacs.d is got from https://github.com/redguardtoo/emacs.d.
+  It has a readme to learn how to use it.
 
 * Start to use it, my version is Magit
+  NOTE: Must setenv HOME explicitly, seems otherwise Commit/Push not working.
 ** Git Windows
    - Download git windows, use default config.
    - Config my git account
@@ -18,3 +19,5 @@ It has a readme to learn how to use it.
    - Config your SSH public key in github
    - Check whether config is succefully
      ssh -T git@github.com
+* Tips
+**  C-x n n  | Narrow to region, ignore all other contents in the buffer, after modified, go back C-x n w | Widen the region
